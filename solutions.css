@@ -140,4 +140,50 @@
        }
  }
 
- 
+ /* esercizio 12 */
+ .ex-12-button{
+    cursor: pointer;
+ }
+
+ .ex-12-button:hover .ex-12-top-white{
+    animation: button-spin-left 1s linear;
+ }
+
+ .ex-12-button:hover .ex-12-bottom-white{
+    cursor: pointer;
+    animation: button-spin-right .7 linear;
+ }
+
+@keyframes button-spin-left{ 
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+
+    50%{
+        top: -10px;
+        left: calc(100% - 60px);
+    }
+
+    100%{
+        top: -10px;
+        left: 10px;
+    }
+}
+
+@keyframes button-spin-left{ 
+    0%{
+        bottom: -10px;
+        left: 20%;
+    }
+
+    50%{
+        bottom: -10px;
+        left: calc(100% - 60px);
+    }
+
+    100%{
+        bottom: -10px;
+        left: 20%;
+    }
+}
