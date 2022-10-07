@@ -117,11 +117,27 @@
    }
 }
 
-/* @keyframes spin{
+
+ /* esercizio 11 */
+ .ex-11-icon{
+    cursor: pointer;
+ }
+
+ .ex-11-icon:hover{
+    animation: spin-1 2s linear;
+ }
+
+ @keyframes spin-1{
     0% {
-     transform: rotate(0turn);
-    } 
-    100%{
-     transform: rotate(1turn);
-    }
- } */
+        transform: rotate(0deg);
+       } 
+
+       80%{
+        transform: rotate(320deg);
+       }
+       100%{
+        transform: rotate(0deg);
+       }
+ }
+
+ 
