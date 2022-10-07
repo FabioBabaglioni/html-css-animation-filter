@@ -6,3 +6,11 @@
     cursor: pointer;
 }
 
+/* esercizio 2 */
+
+
+.ex-2-square:active{
+    cursor: pointer;
+    width: 100%;
+    transition: 3s ease;
+}
