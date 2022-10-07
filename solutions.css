@@ -30,7 +30,6 @@
 }
 
 
-/* esercizio 4 */
 .ex-4-square{
     cursor: pointer;
     transition: all 2s ease-out;
@@ -38,4 +37,20 @@
 
 .ex-4-square:hover{
     background-color: rgba(0, 0, 0, 0);
+}
+
+/* esercizio 5 */
+.ex-5-square{
+    cursor: pointer;
+    transition: all 2s ease;
+}
+
+.ex-5-square:hover{
+    width: 100px;
+    height: 100px;
+}
+
+.ex-5-square:active{
+    width: 10px;
+    height: 10px;
 }
