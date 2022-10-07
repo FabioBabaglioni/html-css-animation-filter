@@ -85,6 +85,7 @@
     border-radius: 40px;
 }
 
+/* esercizio 9 */
 .ex-9-img{
     cursor: pointer;
     transition: all 2s ease;
@@ -95,3 +96,32 @@
     border-radius: 40px;
     transform: scale(1.5);
 }
+
+/* esercizio 10 */
+.ex-10-icon {
+    /* animation-name: spin;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: infinite; */
+
+    animation: spin 2s linear infinite;
+}
+
+
+@keyframes spin{
+   0% {
+    transform: rotate(0deg);
+   } 
+   100%{
+    transform: rotate(360deg);
+   }
+}
+
+/* @keyframes spin{
+    0% {
+     transform: rotate(0turn);
+    } 
+    100%{
+     transform: rotate(1turn);
+    }
+ } */
